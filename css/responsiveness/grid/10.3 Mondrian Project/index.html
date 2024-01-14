@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container{
+  display: grid;
+  height: 748px;
+  width: 748px;
+  background-color: #F0F1EC;
+  grid-template-columns: 320px 9px 198px 9px 153px 9px 50px ;
+  grid-template-rows: 414px 9px 130px 10px 156px 9px 20px;
+}
+
+.red{
+  background-color: #E72F24;
+  grid-area: 1/1/2/2;
+}
+
+.blue{
+  background-color:#004592 ;
+  grid-area: 3/7/4/-1;
+}
+.yellow{
+  background-color:#F9D01E ;
+  grid-area: -2/ 3/-1/4;
+}
+.green{
+  background-color:#232629 ;
+  grid-area: 7/5/-1/6;
+}
+.items{
+  background-color: #000;
+}
+.gap1{
+  grid-area: 1/2/-1/3;
+}
+.gap2{
+  grid-area: 2/1/3/-1;
+}
+.gap3{
+  grid-area: -3/1/-2/-1;
+}
+.gap4{
+  grid-area: -2/4/-1/5;
+}
+.gap5{
+  grid-area: 3/-3/-1/-2;
+}
+.gap6{
+  grid-area: 4/-2/5/-1;
+}
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="red"></div>
+    <div class="blue"></div>
+    <div class="yellow"></div>
+    <div class="green"></div>
+    <div class="items gap1"></div>
+    <div class="items gap2"></div>
+    <div class="items gap3"></div>
+    <div class="items gap4"></div>
+    <div class="items gap5"></div>
+    <div class="items gap6"></div>
+  </div>
+</body>
+
+</html>

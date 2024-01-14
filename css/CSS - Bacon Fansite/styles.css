@@ -1,0 +1,20 @@
+h1{
+    color: red;
+    font-size: 100px;
+}
+
+.skull{
+    background-color: green;
+}
+
+.sword{
+    background-color: red;
+}
+
+.skull:hover{
+    border-radius: 100%;
+}
+
+.sword:hover{
+    border-radius: 50%;
+}

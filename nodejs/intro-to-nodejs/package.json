@@ -1,0 +1,14 @@
+{
+  "name": "intro-to-nodejs",
+  "version": "1.0.0",
+  "description": "A project related to intro-to-nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harsha K L",
+  "license": "ISC",
+  "dependencies": {
+    "marvel-comics-characters": "^1.1.1"
+  }
+}

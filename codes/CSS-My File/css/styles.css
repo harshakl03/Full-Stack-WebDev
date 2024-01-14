@@ -1,0 +1,36 @@
+h1,p{
+    width: 40%;
+    margin: 0 auto;
+    font-family: 'Cookie', cursive;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+.top-container{
+    position: relative;
+    background-color: #F3E8FF;
+    padding-top: 100px;
+}
+
+.mountain{
+    width: 35%;
+    height: 35%;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 15%;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 15%;
+    top: 5%;
+}
+
+
+
+

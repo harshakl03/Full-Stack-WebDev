@@ -1,0 +1,57 @@
+.App{
+  display: flex;
+}
+
+.img-div {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+img {
+  position: absolute;
+  align-content: center;
+  height: 500px;
+  width: 800px;
+}
+
+.img-show{
+  opacity: 1;
+}
+
+.img-hide{
+  opacity: 0;
+}
+
+.btn-div{
+  display: flex;
+}
+
+.hor-btn{
+  position: relative;
+  top: 500px;
+  border-radius: 100%;
+  width: 150px;
+  opacity: 1;
+}
+
+.hide-hor-btn{
+  position: relative;
+  top: 500px;
+  border-radius: 100%;
+  width: 150px;
+  opacity: 0;
+}
+
+.btn-right{
+  position: relative;
+  top: 550px;
+  left: -200px
+}
+
+.btn-left{
+  position: relative;
+  top: 550px;
+  left: -600px
+}
+

@@ -1,0 +1,14 @@
+<%- include("header")  -%>
+    <h1>It's <%= day %> !</h1>
+
+    <ul>
+        <% for(var i=0; i<adding.length; i++){ %>
+            <li> <%= adding[i] %> </li>
+        <% } %>
+    </ul>
+    <form action="/" method="post">
+        <input type="text" id="take-input" name="type">
+        <label for="take-input">Enter your TO DO LIST</label>
+        <button type="submit" name="list" value= <%= day %> >Add</button>
+    </form>
+    <%- include("footer")  -%>

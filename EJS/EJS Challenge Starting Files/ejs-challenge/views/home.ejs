@@ -1,0 +1,12 @@
+<%- include("partials/header"); -%>
+
+<h1>HOME</h1>
+<p> <%= sendPost[0].body %> </p>
+
+<% for(var i=1 ; i != sendPost.length ; i++){ %>
+      <h1> <%= sendPost[i].atitle %> </h1>
+     <p> <%= sendPost[i].body.substring(0,99)+"..."  %> <a href="posts/<%= sendPost[i].title %>">Read More</a>  </p>
+<% }; %>
+
+<%- include("partials/footer"); -%>
+
